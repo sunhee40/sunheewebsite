@@ -1,0 +1,88 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,296;1,296&display=swap');
+/*font*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #ecf3f6;*/
+}
+
+h1{
+  font-size: 24px;
+  color: #f8716b !important;
+  
+}
+
+nav div, nav div a, .contact-container>a, footer p{
+  background-color: #b87844 !important;
+}
+
+footer div a{
+  background-color: #b87844 !important;
+}
+.contact-icon{
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.btn-contact {
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: #f8716b;
+  --bs-btn-border-color: #f8716b;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #e55a54;
+  --bs-btn-hover-border-color: #e55a54;
+  --bs-btn-focus-shadow-rgb: 248, 113, 107;
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: #d64944;
+  --bs-btn-active-border-color: #d64944;
+  --bs-btn-disabled-color: var(--bs-white);
+  --bs-btn-disabled-bg: #f8716b;
+  --bs-btn-disabled-border-color: #f8716b;
+}
+
+.profile-container{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+
+/*----------bootstrap-navbar-css------------*/
+
+
+@media (min-width: 992px) {
+  .navbar-expand-custom {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  }
+  .navbar-expand-custom .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #navbarSupportedContent ul li a {
+    padding: 12px 30px;
+  }
+  
+}
+
+
+/*

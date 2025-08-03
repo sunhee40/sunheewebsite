@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/layout2.css">
+   
+   
+</head>
+<body>
+
+<nav class="navbar navbar-expand-xxl" style="background-color: #b87844; font-size: 22px;" data-bs-theme="light"> <!--remove bg-body-tertiary from class-->
+  <div class="container-fluid">
+    <a class="navbar-brand" style="font-size: 22px;" href="#">Sunhee's website</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"> 
+      <div class="navbar-nav "><!--remove me-auto mb-2 mb-lg-0 d-flex -->
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="./resume.html">Resume</a>
+        <a class="nav-link" href="./project.html">Project</a>
+        <a class="nav-link" href="#contact-container">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<!--bootstrap hero-->
+    <div class="px-3 py-3 my-5 text-center">
+        <img class="d-block mx-auto mb-5 img-fluid" src="./images/frontimage.png" alt="" width="55%" style="border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+        <h1 class="display-5 fw-bold mb-5 pt-5 text-body-emphasis" style="color: #f8716b !important;" > Hello!</h1>
+        <div class="col-lg-6 mx-auto ">
+          <p class="mb-5" style="font-size: 25px;margin-top: 10px;">I am a business consultant with over 25 years of experience in the financial industry, specializing in project management, security valuation, and data analysis. I help clients implement strategic solutions that minimize operational risk. In addition to my expertise in finance and operation, I am expanding my skill set in data science and web development. Outside of work, I love cooking and swimming. </p>
+       
+        </div>
+      </div>
+
+      <!--bootstrap features:hanging icons -->
+
+<div class="container-fluid px-3 py-3">  <!--add later-->
+    <div class="col-lg-8 mx-auto">      <!--lg-8 instead of 6 or 12.-->
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+           
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-database-gear" viewBox="0 0 16 16" style="width: 3rem; height: 3rem;color: midnightblue;">
+  <path d="M12.096 6.223A5 5 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.5 4.5 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.5 4.5 0 0 1-.813-.927Q8.378 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.6 4.6 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10q.393 0 .774-.024a4.5 4.5 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777M3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4"/>
+  <path d="M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+</svg> <!--all three bootstrap icons-->
+          </div>
+          
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Consulting</h3>
+            <p class="feature"> I help clients implement tactical and strategic business solutions in their data architecture.</p>
+           <a href="./resume.html" class="icon-link">Click my resume for more information
+<svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16" style="width: 3rem; height: 3rem;color: red;">
+  <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2m6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+</svg> <!--play-btnicon-->
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Youtube</h3>
+            <p class="feature"> What am I cooking today? I love trying different recipes. There are a variety of easy weeknight recipes or fancy flavorful meals. Check out my Youtube link to see what I am cooking today. </p>
+         <a href="https://www.youtube.com/@theCostcoGourmet" class="icon-link">Click to see my Youtube channel
+<svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a>  
+        </div>
+
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" style="width: 3rem; height: 3rem;color: red;">
+           
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16" style="width: 3rem; height: 3rem;color: black;">
+                <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+            </svg>
+
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Programming</h3>
+            <p class="feature">I have extensive experience in data cleaning and analysis. In addition, I enrolled in the Master's Data Science program at Univ of Texas at Austin.</p>
+            <a href="https://sunhee40.github.io/resume/" class="icon-link">Click to see my Github
+            <svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a>
+          </div>
+        </div>
+      </div>
+ </div>
+</div>
+</div>
+<div class="container-fluid px-3 py-3 pt-5 pb-5 text-center" id="contact-container">
+  <h2 style="color: #f8716b">Say Hi to Me!</h2>
+   <p class="contact-message pt-3 pb-3" style="font-size: 22px;">Do you want to talk about coding while cooking yummy meals at the same time?</p>
+    
+    <a class="btn btn-contact btn-lg" href="mailto:sunheebang40@gmail.com" role="button">CONTACT ME</a>
+
+</div>
+   
+<footer class="text-body-secondary bg-body-tertiary text-center py-4" style="background-color: #b87844 !important; color: #e0fffb !important;">
+   
+
+     <div class="profile-container" style="background-color: #b87844 !important;">
+            
+            <a href="https://www.linkedin.com/sunheebang/"><img class="contact-icon" src="./images/linkedin.svg" alt="linkedin icon"></a>
+            <a href="https://github.com/"><img class="contact-icon" src="./images/github.svg" alt="github icon"></a>
+        </div>   
+  <p style="margin-top: 2rem;">© 2025 Sunhee Bang. All rights reserved.</p>
+ 
+ </footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
+</html>
+
+
+

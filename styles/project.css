@@ -1,0 +1,21 @@
+/* ----------project-css------------*/
+.parent{
+    height: 100vh;
+    
+
+    color: #40514e;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    grid-template-rows: repeat(1fr, 1fr);
+    width: 70%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 15rem;
+}
+.blackjack{
+    width: 30px;
+    height: 25px;
+}
+*{
+    font-size: 24px
+}
