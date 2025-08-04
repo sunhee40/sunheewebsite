@@ -1,8 +1,6 @@
 /* ----------project-css------------*/
 .parent{
     height: 100vh;
-    
-
     color: #40514e;
     display: grid;
     grid-template-columns: 1.5fr 1.5fr;
@@ -10,7 +8,7 @@
     width: 70%;
     margin: 100px auto 0 auto;
     text-align: left;
-    row-gap: 15rem;
+    gap: 5rem, 3rem; 
 }
 
 /* Image sizing fixes */
@@ -45,4 +43,22 @@
 }
 *{
     font-size: 16px
+}
+@media (max-width: 768px) {
+    .parent {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 3rem 0; /* Only row gap needed */
+        width: 90%; /* Wider on small screens */
+        margin: 50px auto 0 auto;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+    .parent {
+        grid-template-columns: 1fr;
+        gap: 2rem 0;
+        width: 95%;
+        margin: 30px auto 0 auto;
+    }
 }
