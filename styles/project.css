@@ -1,22 +1,24 @@
 /* ----------project-css------------*/
 .parent{
-    height: 100vh;
+    min-height: 100vh;
     color: #40514e;
     display: grid;
     grid-template-columns: 1.5fr 1.5fr;
     grid-template-rows: auto auto; /*repeat(1fr, 1fr);*/
     width: 70%;
-    margin: 100px auto 0 auto;
+    margin: 100px auto 100px auto;
     text-align: left;
-    gap: 5rem, 3rem; 
+    gap: 12rem, 3rem; 
 }
 
 /* Image sizing fixes */
 .blackjack img {
-    width: 100%;
+    width: 150%;
     max-width: 300px; /* Limit maximum size */
     height: auto; /* Maintain aspect ratio */
     display: block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .tindog img {
@@ -24,6 +26,8 @@
     max-width: 300px;
     height: auto;
     display: block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 /* Text container fixes */
